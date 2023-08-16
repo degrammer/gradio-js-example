@@ -11,6 +11,7 @@ license: mit
 ---
 
 ![Hugging Face Logo](https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo.svg)
+
 # How Runme elevates your Machine Learning Ops
 
 This demo showcases the utilization of [Runme](https://runme.dev/), highlighting a combination of a Runbook Runner and the Runme CLI to enhance Machine Learning Operations through Continuous Integration (CI).
@@ -58,7 +59,7 @@ const { reverseWords } = require('./js')
 
 describe('Reverse words function', () => {
    it('Should reverse as expected', () => {
-    assert.strictEqual(reverseWords(1,2,3), '3*****2*****1')
+    assert.strictEqual(reverseWords(1,2,3), '3*2*1')
    })
 })
 ```
@@ -88,4 +89,5 @@ gradio app.py
 ```
 
 # Deploy to Hugging Face Space
+
 Just use Git to push to main
