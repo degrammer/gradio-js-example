@@ -1,5 +1,4 @@
 import gradio as gr
-import subprocess
 
 blocks = gr.Blocks()
 
