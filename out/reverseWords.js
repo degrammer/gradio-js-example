@@ -1,0 +1,1 @@
+(subject, verb, object) => [subject, verb, object].reverse().join('*****')
