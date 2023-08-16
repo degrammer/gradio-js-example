@@ -24,8 +24,5 @@ jobs:
         env:
           HF_SECRET: ${{ secrets.HF_SECRET }}
           HF_USERNAME: ${{ vars.HF_USERNAME }}
-        run: git push https://HF_USERNAME:$HF_SECRET@huggingface.co/spaces/HF_USERNAME/SPACE_NAME main
-
-
-
-  
+          SPACE_NAME: ${{ vars.SPACE_NAME }}
+        run: git push https://$HF_USERNAME:$HF_SECRET@huggingface.co/spaces/$HF_USERNAME/$SPACE_NAME main
