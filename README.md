@@ -70,18 +70,7 @@ runme run test-js
 
 ## Adding JavaScript functions to your Python code
 
-You can automate the process of populating the expected function names in your Python application by leveraging the Runbook Cell Output, execute the following
-
-```javascript { background=false interactive=true }
-const functions = require('./js')
-console.log(Object.keys(functions).join(','))
-```
-
-Ensure the JavaScript functions input is coming as expected
-
-```sh
-echo $__
-```
+Ensure you add all the required JavaScript functions to your app.py file
 
 Start running your Gradio app
 

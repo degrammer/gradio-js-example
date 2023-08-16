@@ -45,9 +45,7 @@ def start(command):
     demo.launch()
 
 
-javascriptFns = subprocess.run(
-    "echo $__", shell=True, capture_output=True, text=True)
-file_paths = javascriptFns.stdout.strip().split(",")
+file_paths = ['reverseWords']
 if file_paths:
     print(f"Procesing files:{file_paths}")
     for file in file_paths:
