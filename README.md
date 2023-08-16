@@ -10,6 +10,7 @@ pinned: false
 license: mit
 ---
 
+![Hugging Face Logo](https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo.svg)
 # How Runme elevates your Machine Learning Ops
 
 This demo showcases the utilization of Runme, highlighting a combination of a Runbook Runner and the Runme CLI to enhance Machine Learning Operations through Continuous Integration (CI).
