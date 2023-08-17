@@ -91,3 +91,13 @@ gradio app.py
 # Deploy to Hugging Face Space
 
 Just use Git to push to main
+
+Write your commit message
+
+```sh { interactive=true }
+export COMMIT_MESSAGE=Your commit message
+```
+
+```sh
+git add . && git commit -m $COMMIT_MESSAGE && git push gh head
+```
