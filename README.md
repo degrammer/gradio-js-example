@@ -95,7 +95,7 @@ Just use Git to push to main
 Write your commit message
 
 ```sh { interactive=true }
-export COMMIT_MESSAGE=Your commit message
+export COMMIT_MESSAGE=Enter your commit message
 ```
 
 ```sh
