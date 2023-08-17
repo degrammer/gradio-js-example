@@ -101,3 +101,9 @@ export COMMIT_MESSAGE=Enter your commit message
 ```sh
 git add . && git commit -m $COMMIT_MESSAGE && git push gh head
 ```
+
+Deploy manually to Hugging Face
+
+```sh
+https://github.com/degrammer/ml-ops-demo/blob/main/.github/workflows/deploy.yml
+```
