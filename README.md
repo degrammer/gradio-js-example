@@ -59,7 +59,7 @@ const { reverseWords } = require('./js')
 
 describe('Reverse words function', () => {
    it('Should reverse as expected', () => {
-    assert.strictEqual(reverseWords(1,2,3), '3*2*1')
+    assert.strictEqual(reverseWords(1,2,3), '3🤗2🤗1')
    })
 })
 ```
